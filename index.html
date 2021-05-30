@@ -348,9 +348,9 @@ PROX STYLE
 
           <div class="col-lg-4 mx-lg-auto col-md-6 col-12" data-aos-delay="0">
             
-            <ul class="footer-link">
-              <li><a href="#">This page got <span id="visits"></span> views.</a></li>
-            </ul>
+            
+              <a href="#"><i class="far fa-eye"></i> Số thằng đầu đất đã xem: <span id="visits"></span>, trong đó có cả bạn.</a>
+            
           </div>
 
           <div class="col-lg-3 mx-lg-auto col-md-6 col-12" >
@@ -377,7 +377,7 @@ PROX STYLE
 
 
      <!-- SCRIPTS -->
-     <script src="https://api.countapi.xyz/hit/florin-pop.com/visits? callback=countview" async></script>
+     <script src="https://api.countapi.xyz/hit/captainprox.github.io/visits?callback=liveViews" async></script>
      <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
      <script src="js/jquery.min.js"></script>
      <script src="js/bootstrap.min.js"></script>
@@ -418,10 +418,9 @@ PROX STYLE
      </script>
 
      <script>
-          function countview(response) {
+          function liveViews(response) {
           document.getElementById('visits').innerText = response.value;
           }
-
      </script>
      
 
