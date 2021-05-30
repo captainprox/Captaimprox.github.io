@@ -377,7 +377,7 @@ PROX STYLE
 
 
      <!-- SCRIPTS -->
-     <script async src="https://api.countapi.xyz/hit/captainprox.github.io/visits?  callback=countview"></script>
+     <script src="https://api.countapi.xyz/hit/florin-pop.com/visits? callback=countview" async></script>
      <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
      <script src="js/jquery.min.js"></script>
      <script src="js/bootstrap.min.js"></script>
@@ -418,8 +418,8 @@ PROX STYLE
      </script>
 
      <script>
-          function countview(res) {
-               $("#visits").text(res.value);
+          function countview(response) {
+          document.getElementById('visits').innerText = response.value;
           }
 
      </script>
