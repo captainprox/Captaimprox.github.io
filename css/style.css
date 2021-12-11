@@ -329,18 +329,17 @@
 }
 
 #popup {
-  top: 35%;
-  left: 35%;
-  margin: 10%;
-	text-align:center;
-	margin-top: -50px;
-	margin-left: -100px;
-  backdrop-filter: blur(30px);
-	background: var(--popup-color);
-	padding: 20px 30px 20px 30px;
-	position: fixed;
-  box-shadow: -4px 4px 5px 0px rgba(0, 0, 0, 0.288);
-  border-radius: 15px;
+    top: 0px;
+    margin: 15px 10%;
+    text-align: center;
+    backdrop-filter: blur(30px);
+    background: var(--popup-color);
+    z-index: 999;
+    padding: 20px 30px 20px 30px;
+    position: fixed;
+    width: -webkit-fill-available;
+    box-shadow: -4px 4px 5px 0px rgba(0, 0, 0, 0.288);
+    border-radius: 15px;
 }
 
 .b-close {
